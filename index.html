@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Resume Design</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Main Content Section -->
+        <div class="main-content">
+            <!-- Left Section -->
+            <div class="left-section">
+                <!-- Profile Picture Section -->
+                <div class="profile-picture">
+                    <img src="Usama-Image.png" alt="Profile Picture">
+                </div>
+                <div class="profile-details">
+                    <h1 contenteditable="true">John Doe</h1>
+                    <h2 contenteditable="true">FRONT END DEVELOPER</h2>
+                </div>
+    
+                <!-- About Me Section -->
+                <div class="about-me">
+                    <h3>About Me</h3>
+                    <p contenteditable="true">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet quam rhoncus, egestas dui eget, malesuada justo.</p>
+                </div>
+    
+                <!-- Contact Information Section -->
+                <div class="contact-info">
+                    <h3>Personal Information</h3>
+                    <p><i class="fas fa-envelope"></i> <strong>Mail:</strong> <span contenteditable="true">john.doe@example.com</span></p>
+                    <p><i class="fas fa-phone"></i> <strong>Contact:</strong> <span contenteditable="true">+123-456-7890</span></p>
+                    <p><i class="fas fa-map-marker-alt"></i> <strong>Address:</strong> <span contenteditable="true">123 Anywhere St., Any City</span></p>
+                </div>
+    
+                <!-- Button to Toggle Skills Section -->
+                <button id="toggleSkillsBtn"><i class="fas fa-star"></i> Toggle Skills</button>
+    
+                <!-- Skills Section -->
+                <div class="skills" id="skillsSection">
+                    <h3>Language</h3>
+                    <ul>
+                        <li contenteditable="true">English</li>
+                        <li contenteditable="true">Urdu</li>
+                    </ul>
+                    <h3>Expertise</h3>
+                    <ul>
+                        <li contenteditable="true">HTML/CSS</li>
+                        <li contenteditable="true">JavaScript/TypeScript</li>
+                        <li contenteditable="true">React/Angular</li>
+                        <li contenteditable="true">Git/GitHub</li>
+                        <li contenteditable="true">Management Skills</li>
+                        <li contenteditable="true">Creativity</li>
+                        <li contenteditable="true">Digital Marketing</li>
+                        <li contenteditable="true">Negotiation</li>
+                        <li contenteditable="true">Critical Thinking</li>
+                        <li contenteditable="true">Leadership</li>
+                    </ul>
+                </div>
+            </div>
+    
+            <!-- Right Section -->
+            <div class="right-section">
+                <!-- Button to Toggle Experience Section -->
+                <button id="toggleExperienceBtn"><i class="fas fa-briefcase"></i> Toggle Experience</button>
+    
+                <!-- Experience Section -->
+                <div class="experience" id="experienceSection">
+                    <h3>Work Experience</h3>
+                    <div class="job">
+                        <h4 contenteditable="true">Front-end Developer:</h4>
+                        <p contenteditable="true">Tech Company (2022-Present)</p>
+                    </div>
+                    <div class="job">
+                        <h4 contenteditable="true">Intern:</h4>
+                        <p contenteditable="true">Software Solutions (2021)</p>
+                    </div>
+                </div>
+    
+                <!-- Education Section -->
+                <div class="education">
+                    <h3>Education</h3>
+                    <div class="degree">
+                        <h4 contenteditable="true">High School:</h4>
+                        <p contenteditable="true">XYZ School (2016-2018)</p>
+                    </div>
+                    <div class="degree">
+                        <h4 contenteditable="true">Intermediate:</h4>
+                        <p contenteditable="true">ABC degree college (2018-2022)</p>
+                    </div>
+                    <div class="degree">
+                        <h4 contenteditable="true">Bachelor:</h4>
+                        <p contenteditable="true">ABC University (2018-2022)</p>
+                    </div>
+                </div>
+    
+                <!-- Skills Summary Section -->
+                <div class="skills-summary">
+                    <h3>Skills Summary</h3>
+                    <div class="skill">
+                        <p contenteditable="true">Design Process</p>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 78%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <p contenteditable="true">Project Management</p>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 81%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+    <!-- Include TypeScript File -->
+    <script src="script.js"></script>
+</body>
+
+</html>
